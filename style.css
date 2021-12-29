@@ -1,0 +1,104 @@
+/* Front-end Style Guide 
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy*/
+
+/*Font size (paragraph): 16px*/
+
+/* Font*/
+.flex-container{
+    display: flex;
+    border-radius: 8px;
+    padding: 50px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    background-color:white;
+   /* padding: 30px;
+    margin-left: 33%;
+    margin-right: 33%;*/
+}
+
+.center {
+    display: flex;
+    border-radius: 2rem;
+    
+}
+
+.flex-container > div.instructions h2{
+    text-align: center;
+    font-weight: bolder; 
+}
+
+.flex-container > body {
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: (500,700,900);
+    justify-content: center;
+}
+
+
+.flex-container > div.container {
+    background-color: rgb(237, 239, 245);
+    border-radius: 5px;
+   /* margin-right: 20px;*/
+
+}
+
+.flex-container >  div.container .amount{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.flex-container >  div.container .amount .music{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+.flex-container > div.container .amount b{
+    display: flex;
+    padding-left: 10px;
+}
+
+.flex-container > div.container .amount p{
+    display: flex;
+    
+}
+
+/* Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900*/
+
+.flex-container > button.button-one {
+    background-color: hsl(253, 87%, 49%);
+    color: rgba(255, 255, 255, 0.918);
+    font-weight: bolder;
+    width: 95%;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px rgba(165, 161, 164, 0.945);
+}
